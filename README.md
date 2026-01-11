@@ -2,6 +2,8 @@
 
 An example implementation of electron-webauthn in a electron browser.
 
+To view the files changed, go to [commit 2efb71e](https://github.com/iamEvanYT/electron-webauthn-browser-example/commit/2efb71e21a558a340927ec065f6bd9ca1564f7a8).
+
 ## How to use
 
 - Replace `build/main.mac.plist` with your own values.
