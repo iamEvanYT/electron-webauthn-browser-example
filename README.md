@@ -1,6 +1,11 @@
 # electron-webauthn-browser-example
 
-An Electron application with React and TypeScript
+An example implementation of electron-webauthn in a electron browser.
+
+## How to use
+
+- Replace `build/main.mac.plist` with your own values.
+- Replace `build/profile.provisionprofile` with your own provisioning profile.
 
 ## Recommended IDE Setup
 

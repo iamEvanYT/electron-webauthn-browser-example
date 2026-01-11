@@ -19,7 +19,9 @@ nsis:
   uninstallDisplayName: ${productName}
   createDesktopShortcut: always
 mac:
+  entitlements: build/main.mac.plist
   entitlementsInherit: build/entitlements.mac.plist
+  provisioningProfile: build/profile.provisionprofile
   extendInfo:
     - NSCameraUsageDescription: Application requests access to the device's camera.
     - NSMicrophoneUsageDescription: Application requests access to the device's microphone.

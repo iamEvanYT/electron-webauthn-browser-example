@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Replace with your Team ID and Bundle ID. -->
+  	<key>com.apple.application-identifier</key>
+		<string>TEAM_ID.com.example</string>
+
+    <!-- Enable webauthn for every domain. -->
+    <key>com.apple.developer.web-browser.public-key-credential</key>
+		<true/>
+
+    <!-- Or, enable webauthn for whitelisted domains. (Change example.com to your domain.) -->
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+      <string>webcredentials:example.com</string>
+    </array>
+    
+		<key>com.apple.security.hardened-runtime</key>
+		<true/>
+    <key>com.apple.security.cs.allow-jit</key>
+    <true/>
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <true/>
+    <key>com.apple.security.cs.allow-dyld-environment-variables</key>
+    <true/>
+  </dict>
+</plist>
