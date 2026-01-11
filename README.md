@@ -1,4 +1,4 @@
-# electron-webauthn-example
+# electron-webauthn-browser-example
 
 An Electron application with React and TypeScript
 
