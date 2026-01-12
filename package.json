@@ -23,7 +23,7 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.2",
     "@electron-toolkit/utils": "^4.0.0",
-    "electron-webauthn": "^1.0.1",
+    "electron-webauthn": "^1.0.2",
     "tldts": "^7.0.19"
   },
   "devDependencies": {
